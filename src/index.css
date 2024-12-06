@@ -1,0 +1,48 @@
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.square.black {
+  background-color: #000;
+}
+
+.square.red {
+  background-color: hsl(0, 87%, 52%);
+  border: 1px solid #b0e0e6; /* 添加边框以突出显示白子 */
+}
+
+.board-row {
+  display: flex;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+  margin-right: 20px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+/* 设置棋盘背景颜色为淡蓝色 */
+.game-board {
+  background-color: #b0e0e6;
+  padding: 5px;
+  border-radius: 5px;
+}
